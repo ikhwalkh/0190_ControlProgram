@@ -23,11 +23,12 @@ int main(){
     cout << "Masukkan nilai Matematika = ";
     cin >> nilMT;
 
-    rerata = (nilBI+nilMT)/2;
-    if (rerata >= 60)
-        status = "Lolos";
-    else
-        status = "Gagal";
+    //rerata = (nilBI+nilMT)/2;
+    //if (rerata >= 60)
+       // status = "Lolos";
+    //else
+     //   status = "Gagal";
+     rerata = Rata_rata(nilBI,nilMT);
     
-        cout << "Status kelulusan = "<<status<<" ,dengan nilai rerata = "<<rerata<<endl; //hasil akhir nya tinggal di run code
+        cout << "Status kelulusan = "<<Status_lulus(rerata)<<" ,dengan nilai rerata = "<<rerata<<endl; //hasil akhir nya tinggal di run code
 }
