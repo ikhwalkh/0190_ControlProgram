@@ -29,5 +29,5 @@ int main(){
     else
         status = "Gagal";
     
-        cout << "Status kelulusan = "<<status<<" ,dengan nilai rerata = "<<rerata<<endl;
+        cout << "Status kelulusan = "<<status<<" ,dengan nilai rerata = "<<rerata<<endl; //hasil akhir nya tinggal di run code
 }
